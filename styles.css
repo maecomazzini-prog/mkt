@@ -156,3 +156,42 @@ tr:last-child td{border-bottom:none}
   .grid-2,.grid-3,.grid-4,.kpi-row,.maturity{grid-template-columns:1fr}
   .section-title{display:block}.section-title p{margin-top:10px}
 }
+
+
+/* Simulações, gráficos e instruções */
+.sim-grid{display:grid;grid-template-columns:1.08fr .92fr;gap:18px;align-items:start}
+.panel{background:#fff;border:1px solid var(--line);border-radius:22px;padding:24px;box-shadow:0 8px 26px rgba(40,20,60,.05)}
+.field{margin:0 0 18px}
+.field label{display:flex;justify-content:space-between;gap:12px;font-size:13px;font-weight:700;color:var(--purple-950);margin-bottom:8px}
+.field input[type="number"],.field select{width:100%;padding:12px 13px;border:1px solid var(--line);border-radius:12px;background:#fff;color:var(--ink);font:inherit}
+.field input[type="range"]{width:100%;accent-color:var(--purple-700)}
+.result-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:12px}
+.result{background:var(--purple-100);border-radius:16px;padding:16px}
+.result strong{display:block;font-family:Montserrat;font-size:26px;color:var(--purple-950);line-height:1.1}
+.result span{font-size:11px;color:var(--muted);text-transform:uppercase;letter-spacing:.06em}
+.chart-card{background:var(--purple-950);border-radius:22px;padding:22px;color:#fff;overflow:hidden}
+.chart-card h3{font-family:Montserrat;margin:0 0 4px}
+.chart-card p{margin:0 0 16px;color:rgba(255,255,255,.66);font-size:13px}
+.chart{width:100%;min-height:290px}
+.chart text{font-family:Inter,Arial,sans-serif}
+.legend{display:flex;gap:16px;flex-wrap:wrap;margin-top:12px;font-size:12px;color:rgba(255,255,255,.72)}
+.legend i{display:inline-block;width:10px;height:10px;border-radius:3px;margin-right:6px}
+.scenario-card{border:1px solid var(--line);background:#fff;border-radius:18px;padding:20px}
+.scenario-card.active{border-color:var(--yellow-500);box-shadow:0 0 0 3px rgba(244,201,40,.18)}
+.product-path{display:flex;gap:10px;align-items:center;overflow:auto;padding:8px 0}
+.product-pill{min-width:155px;background:#fff;border:1px solid var(--line);border-radius:14px;padding:14px}
+.product-pill.primary{background:var(--purple-950);color:#fff;border-color:transparent}
+.product-pill.cross{background:var(--yellow-100);border-color:#ead68f}
+.path-arrow{font-size:20px;color:var(--purple-500);font-weight:800}
+.howto{display:grid;grid-template-columns:220px 1fr;gap:22px;padding:28px 0;border-bottom:1px solid var(--line)}
+.howto:last-child{border-bottom:0}
+.howto-phase{position:sticky;top:24px;align-self:start}
+.howto-phase .num{font-family:Montserrat;font-size:48px;font-weight:800;color:var(--yellow-500);line-height:1}
+.howto-phase h3{font-family:Montserrat;color:var(--purple-950);margin:8px 0}
+.checklist{display:grid;gap:10px}
+.check{display:flex;gap:10px;align-items:flex-start;background:#fff;border:1px solid var(--line);border-radius:14px;padding:14px}
+.check b{color:var(--purple-800)}
+.mini-label{font-size:11px;text-transform:uppercase;letter-spacing:.08em;color:var(--purple-600);font-weight:800}
+.note{font-size:12px;color:var(--muted);margin-top:12px}
+@media(max-width:900px){.sim-grid,.howto{grid-template-columns:1fr}.howto-phase{position:static}}
+@media(max-width:560px){.result-grid{grid-template-columns:1fr}}

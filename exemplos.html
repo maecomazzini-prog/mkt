@@ -1,0 +1,67 @@
+<!DOCTYPE html><html lang="pt-BR"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>Exemplos e simulações | Live University</title><link rel="stylesheet" href="styles.css"></head><body>
+<aside class="sidebar"><div class="brand"><div class="brand-mark">L</div><div class="brand-copy"><strong>LIVE UNIVERSITY</strong><span>Marketing Transformation</span></div></div>
+<nav class="nav"><div class="nav-label">Navegação</div><a href="index.html"><span class="dot"></span>Visão executiva</a><a href="diagnostico.html"><span class="dot"></span>Diagnóstico</a><a href="metricas.html"><span class="dot"></span>CAC, LTV e Churn</a><a href="service-design.html"><span class="dot"></span>Service Design</a><a href="simplicidade.html"><span class="dot"></span>Leis da Simplicidade</a><a href="operating-model.html"><span class="dot"></span>Operating Model</a><a href="customer-intelligence.html"><span class="dot"></span>Customer Intelligence</a><a href="roadmap.html"><span class="dot"></span>Roadmap</a><a href="exemplos.html"><span class="dot"></span>Exemplos e simulações</a><a href="referencias.html"><span class="dot"></span>Referências</a></nav><div class="sidebar-foot">Estratégia de Service Design + Leis da Simplicidade aplicada ao Marketing.</div></aside>
+<div class="mobile-top"><strong>LIVE · Marketing</strong><button data-menu>Menu</button></div>
+<main class="main"><div class="container">
+<header class="page-head"><div class="eyebrow">08 · Exemplos e simulações</div>
+<h1>Transformar hipóteses em cenários de decisão.</h1>
+<p>Exemplos didáticos para demonstrar como Customer Intelligence pode apoiar decisões de cross-sell, CAC, LTV e priorização de contas B2B. Os números abaixo são ilustrativos e não representam dados reais da Live University.</p></header>
+
+<section class="section">
+<div class="section-title"><h2>Simulação 1 · Jornada B2B e cross-sell</h2><p>Escolha o produto de entrada e ajuste o perfil da conta para visualizar uma trajetória potencial de expansão.</p></div>
+<div class="sim-grid">
+<div class="panel">
+<div class="field"><label>Produto de entrada <span id="entryLabel"></span></label><select id="entryProduct"></select></div>
+<div class="field"><label>Colaboradores na conta <span id="employeesValue">40</span></label><input id="employees" type="range" min="5" max="250" value="40" step="5"></div>
+<div class="field"><label>Probabilidade de cross-sell <span id="crossValue">35%</span></label><input id="crossRate" type="range" min="5" max="80" value="35"></div>
+<div class="field"><label>Expansão média por cross-sell <span id="expansionValue">R$ 28 mil</span></label><input id="expansionTicket" type="range" min="5000" max="120000" value="28000" step="1000"></div>
+<div class="result-grid">
+<div class="result"><span>Receita inicial estimada</span><strong id="initialRevenue">—</strong></div>
+<div class="result"><span>Receita potencial de expansão</span><strong id="expansionRevenue">—</strong></div>
+<div class="result"><span>Valor potencial da conta</span><strong id="accountValue">—</strong></div>
+<div class="result"><span>Produtos sugeridos</span><strong id="suggestedCount">—</strong></div>
+</div>
+</div>
+<div class="chart-card"><h3>Potencial de receita por estágio</h3><p>Entrada, expansão provável e valor total estimado.</p>
+<svg id="crossChart" class="chart" viewBox="0 0 520 300"></svg>
+<div class="legend"><span><i style="background:#8b5cc4"></i>Entrada</span><span><i style="background:#f4c928"></i>Expansão</span><span><i style="background:#fff"></i>Total</span></div></div>
+</div>
+<div style="margin-top:20px"><div class="mini-label">Sequência de produtos sugerida</div><div id="productPath" class="product-path"></div></div>
+</section>
+
+<section class="section">
+<div class="section-title"><h2>Simulação 2 · CAC, LTV e payback</h2><p>Teste a sustentabilidade econômica de um cenário de aquisição.</p></div>
+<div class="sim-grid">
+<div class="panel">
+<div class="grid grid-2">
+<div class="field"><label>Investimento em aquisição</label><input id="acqSpend" type="number" value="250000" min="0" step="1000"></div>
+<div class="field"><label>Novos clientes</label><input id="newCustomers" type="number" value="80" min="1"></div>
+<div class="field"><label>Ticket médio inicial</label><input id="avgTicket" type="number" value="18000" min="0" step="500"></div>
+<div class="field"><label>Margem bruta (%)</label><input id="grossMargin" type="number" value="58" min="1" max="100"></div>
+<div class="field"><label>Compras médias no ciclo</label><input id="purchases" type="number" value="1.8" min="1" max="10" step="0.1"></div>
+<div class="field"><label>Retenção média (meses)</label><input id="retention" type="number" value="18" min="1" max="60"></div>
+</div>
+<div class="result-grid">
+<div class="result"><span>CAC</span><strong id="cacResult">—</strong></div>
+<div class="result"><span>LTV de receita</span><strong id="ltvRevenue">—</strong></div>
+<div class="result"><span>LTV de margem</span><strong id="ltvMargin">—</strong></div>
+<div class="result"><span>Relação LTV/CAC</span><strong id="ratioResult">—</strong></div>
+<div class="result"><span>Payback</span><strong id="paybackResult">—</strong></div>
+<div class="result"><span>Leitura</span><strong id="scenarioHealth" style="font-size:18px">—</strong></div>
+</div>
+</div>
+<div class="chart-card"><h3>Economia unitária do cliente</h3><p>CAC comparado ao valor acumulado de margem durante o relacionamento.</p><svg id="ltvChart" class="chart" viewBox="0 0 520 300"></svg></div>
+</div>
+</section>
+
+<section class="section">
+<div class="section-title"><h2>Exemplo · Efeito do cross-sell no LTV</h2><p>Cenário ilustrativo para mostrar por que a visão multiproduto deve ser priorizada.</p></div>
+<div class="grid grid-3">
+<div class="scenario-card"><span class="badge">MONOPRODUTO</span><h3>1 produto</h3><div class="stat">R$ 18 mil</div><p>LTV estimado. Retenção média de 12 meses.</p></div>
+<div class="scenario-card active"><span class="badge">MULTIPRODUTO</span><h3>2 produtos</h3><div class="stat">R$ 43 mil</div><p>LTV estimado. Retenção média de 20 meses.</p></div>
+<div class="scenario-card"><span class="badge">CONTA ESTRATÉGICA</span><h3>3+ produtos</h3><div class="stat">R$ 96 mil</div><p>LTV estimado. Retenção média de 30 meses.</p></div>
+</div>
+<div class="callout" style="margin-top:20px"><strong>Leitura estratégica:</strong><br>o primeiro ganho da governança é revelar quantas contas já possuem múltiplos produtos e como o comportamento delas difere da base monoproduto.</div>
+</section>
+<footer class="footer"><span>Live University · Marketing Transformation</span><span>Documento estratégico navegável</span></footer></div></main><script src="app.js"></script><script src="simulacoes.js"></script></body></html>

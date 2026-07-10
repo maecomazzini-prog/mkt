@@ -1,0 +1,65 @@
+{
+  "products": [
+    {
+      "id": "imersao",
+      "name": "Imersão executiva",
+      "ticket": 8500,
+      "margin": 0.62,
+      "retentionMonths": 10
+    },
+    {
+      "id": "pos",
+      "name": "Pós-graduação",
+      "ticket": 24000,
+      "margin": 0.58,
+      "retentionMonths": 18
+    },
+    {
+      "id": "mba",
+      "name": "MBA",
+      "ticket": 42000,
+      "margin": 0.55,
+      "retentionMonths": 24
+    },
+    {
+      "id": "corporate",
+      "name": "Programa in company",
+      "ticket": 78000,
+      "margin": 0.48,
+      "retentionMonths": 20
+    },
+    {
+      "id": "evento",
+      "name": "Evento executivo",
+      "ticket": 2800,
+      "margin": 0.68,
+      "retentionMonths": 6
+    }
+  ],
+  "crossSellPaths": {
+    "imersao": [
+      "pos",
+      "mba",
+      "corporate"
+    ],
+    "pos": [
+      "mba",
+      "evento",
+      "corporate"
+    ],
+    "mba": [
+      "evento",
+      "corporate"
+    ],
+    "corporate": [
+      "imersao",
+      "evento",
+      "pos"
+    ],
+    "evento": [
+      "imersao",
+      "pos",
+      "mba"
+    ]
+  }
+}
