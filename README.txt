@@ -33,3 +33,12 @@ VERSÃO 2 — AJUSTES DE NOMENCLATURA E OPERAÇÃO
 - Marketing Operations Lead é o papel responsável por Customer Intelligence Enablement e gaps operacionais.
 - customer-intelligence.html foi revisado para separar claramente os papéis.
 - hubspot.html ganhou um plano detalhado de implementação em seis etapas.
+
+
+VERSÃO 3 — INTEGRAÇÃO ENTRE ESTRATÉGIA E EXECUÇÃO
+- Roadmap transformado em índice mestre da implantação.
+- Owners, execução, validação e owners futuros definidos por fase.
+- Cada fase conecta Service Design, Hubspot, Leis da Simplicidade, métricas e Playbook.
+- RACI corrigido: Marketing Operations Lead separado de Design.
+- Design permanece como área independente e fornecedora compartilhada.
+- Home, numeração e nomenclaturas revisadas.
