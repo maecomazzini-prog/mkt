@@ -1,19 +1,28 @@
-SITE NAVEGÁVEL — LIVE UNIVERSITY MARKETING TRANSFORMATION V3
+LIVE UNIVERSITY — MARKETING OPERATING SYSTEM V1.0
 
-Todos os arquivos estão na mesma pasta.
+Pacote completo e consolidado. Todos os arquivos estão na mesma pasta.
 
-Como usar:
+Como abrir:
 1. Extraia o ZIP.
 2. Mantenha todos os arquivos juntos.
-3. Abra index.html no navegador.
+3. Abra index.html.
 
-Novidades:
-- exemplos.html: simulações interativas de cross-sell B2B, CAC, LTV e payback.
-- roadmap.html: instruções de como executar cada fase.
-- dados.json: dados ilustrativos usados pelos exemplos.
-- simulacoes.js: lógica dos simuladores e gráficos SVG.
+Inclui:
+- Home executiva
+- Diagnóstico
+- CAC, LTV e Churn
+- Service Design
+- Leis da Simplicidade
+- Operating Model realista
+- Customer Intelligence Enablement
+- Roadmap com como fazer
+- Hubspot Operating Model
+- Playbook Operacional
+- Exemplos e simulações
+- Referências
 
-Observação:
-Os números das simulações são hipotéticos e não representam dados reais da Live University.
-O site funciona em abertura local. Caso o navegador bloqueie a leitura do JSON via file://,
-o simulador utiliza uma cópia interna de segurança dos mesmos dados.
+Premissas:
+- Sem aumento de headcount.
+- Design permanece fora do Marketing.
+- Customer Intelligence é capability transitória absorvida inicialmente por Design/Service Design.
+- Hubspot é o CRM central.
