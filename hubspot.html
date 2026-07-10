@@ -3,18 +3,86 @@
 <aside class="sidebar"><div class="brand"><div class="brand-mark">L</div><div class="brand-copy"><strong>LIVE UNIVERSITY</strong><span>Marketing Transformation</span></div></div>
 <nav class="nav"><div class="nav-label">Navegação</div><a href="index.html"><span class="dot"></span>Visão executiva</a><a href="diagnostico.html"><span class="dot"></span>Diagnóstico</a><a href="metricas.html"><span class="dot"></span>CAC, LTV e Churn</a><a href="service-design.html"><span class="dot"></span>Service Design</a><a href="simplicidade.html"><span class="dot"></span>Leis da Simplicidade</a><a href="operating-model.html"><span class="dot"></span>Operating Model</a><a href="customer-intelligence.html"><span class="dot"></span>Customer Intelligence Enablement</a><a href="roadmap.html"><span class="dot"></span>Roadmap</a><a href="hubspot.html"><span class="dot"></span>Hubspot Operating Model</a><a href="playbook-operacional.html"><span class="dot"></span>Playbook Operacional</a><a href="exemplos.html"><span class="dot"></span>Exemplos e simulações</a><a href="referencias.html"><span class="dot"></span>Referências</a></nav><div class="sidebar-foot">Estratégia de Service Design + Leis da Simplicidade aplicada ao Marketing.</div></aside>
 <div class="mobile-top"><strong>LIVE · Marketing</strong><button data-menu>Menu</button></div>
-<main class="main"><div class="container"><header class="page-head"><div class="eyebrow">08 · Hubspot Operating Model</div><h1>Do CRM de campanhas ao sistema operacional do relacionamento.</h1><p>O Hubspot já existe. O ganho está em organizá-lo para consolidar identidade, portfólio, valor, risco e próxima melhor ação.</p></header>
-<section class="section"><div class="section-title"><h2>O que configurar primeiro</h2></div><div class="grid grid-3">
-<div class="card"><h3>Identidade</h3><p>Customer ID, pessoa, empresa, grupo econômico, owner e origem confiável.</p></div><div class="card"><h3>Portfólio</h3><p>Produto inicial, produtos adquiridos, datas, status, BU e receita acumulada.</p></div><div class="card card-dark"><h3>Inteligência</h3><p>Segmento, potencial de cross-sell, risco de churn e próxima melhor ação.</p></div></div></section>
-<section class="section"><div class="section-title"><h2>Objetos e propriedades mínimas</h2></div><div class="table-wrap"><table><thead><tr><th>Objeto</th><th>Propriedades</th><th>Uso operacional</th></tr></thead><tbody>
-<tr><td>Contato</td><td>Customer ID, função, senioridade, consentimento, engajamento</td><td>Comunicação e relacionamento individual</td></tr>
-<tr><td>Empresa</td><td>CNPJ, grupo econômico, segmento, porte, owner, valor acumulado</td><td>Visão de conta B2B</td></tr>
-<tr><td>Negócio</td><td>BU, produto, valor, origem, estágio, data de fechamento</td><td>CAC, receita e conversão</td></tr>
-<tr><td>Propriedades calculadas</td><td>Número de produtos, LTV, recência, risco, potencial</td><td>Segmentação e priorização</td></tr>
+<main class="main"><div class="container">
+<header class="page-head"><div class="eyebrow">08 · Hubspot Operating Model</div>
+<h1>Do CRM de campanhas ao sistema operacional do relacionamento.</h1>
+<p>O Hubspot já existe. O trabalho do Marketing Operations Lead é organizar dados, propriedades, processos e rituais para que a plataforma responda quem é o cliente, o que comprou, quanto vale, qual o risco e qual deve ser a próxima ação.</p></header>
+
+<section class="section"><div class="section-title"><h2>Objetivo operacional</h2></div>
+<div class="grid grid-3">
+<div class="card"><h3>Identidade confiável</h3><p>Uma pessoa e uma empresa reconhecidas de forma consistente, com regras claras de deduplicação e associação.</p></div>
+<div class="card"><h3>Portfólio visível</h3><p>Produtos, BUs, datas, receita e status reunidos em uma visão de relacionamento.</p></div>
+<div class="card card-dark"><h3>Ação orientada por dados</h3><p>Listas, alertas, workflows e dashboards que indiquem a próxima melhor ação.</p></div>
+</div></section>
+
+<section class="section"><div class="section-title"><h2>Objetos e propriedades mínimas</h2></div>
+<div class="table-wrap"><table><thead><tr><th>Objeto</th><th>Propriedades mínimas</th><th>Como implementar</th><th>Uso operacional</th></tr></thead><tbody>
+<tr><td>Contato</td><td>Customer ID, função, senioridade, consentimento, última interação, score de engajamento</td><td>Criar grupo de propriedades padronizado; tornar obrigatórios os campos críticos; revisar duplicidades</td><td>Comunicação e relacionamento individual</td></tr>
+<tr><td>Empresa</td><td>CNPJ, grupo econômico, segmento, porte, owner, receita acumulada, número de produtos</td><td>Definir empresa como unidade principal de leitura B2B; associar contatos e negócios corretamente</td><td>Visão de conta e potencial de expansão</td></tr>
+<tr><td>Negócio</td><td>BU, produto, valor, origem, estágio, data de fechamento, motivo de perda</td><td>Padronizar pipelines e nomenclaturas; limitar campos livres; tornar origem e produto obrigatórios</td><td>CAC, receita, conversão e análise de funil</td></tr>
+<tr><td>Propriedades calculadas</td><td>LTV, recência, frequência, risco, potencial, última compra, próxima melhor ação</td><td>Começar com regras simples e transparentes; revisar mensalmente antes de sofisticar</td><td>Segmentação e priorização</td></tr>
 </tbody></table></div></section>
-<section class="section"><div class="section-title"><h2>Como fazer</h2></div><div class="timeline">
-<div class="t-item"><div class="t-dot"></div><div class="t-meta">Passo 1</div><h3>Auditar</h3><p>Inventariar propriedades, listas, workflows, integrações e duplicidades.</p></div>
-<div class="t-item"><div class="t-dot"></div><div class="t-meta">Passo 2</div><h3>Padronizar</h3><p>Definir nomenclatura, owners, campos obrigatórios e fonte de verdade.</p></div>
-<div class="t-item"><div class="t-dot"></div><div class="t-meta">Passo 3</div><h3>Consolidar</h3><p>Criar visão multiproduto por pessoa e empresa.</p></div>
-<div class="t-item"><div class="t-dot"></div><div class="t-meta">Passo 4</div><h3>Ativar</h3><p>Construir listas, dashboards e jornadas de cross-sell, reativação e risco.</p></div></div></section>
-<section class="section"><div class="callout"><strong>Resultado esperado:</strong><br>o Hubspot responde quem é o cliente, o que já comprou, quanto vale, qual é o risco e qual deve ser a próxima ação.</div></section><footer class="footer"><span>Live University · Marketing Transformation</span><span>Documento estratégico navegável</span></footer></div></main><script src="app.js"></script></body></html>
+
+<section class="section"><div class="section-title"><h2>Como fazer · plano de implementação</h2><p>O foco é configurar o mínimo que permita operar, medir e aprender — sem tentar resolver toda a arquitetura de dados de uma vez.</p></div>
+
+<div class="howto"><div class="howto-phase"><div class="num">01</div><div class="mini-label">Semana 1–2</div><h3>Auditar o ambiente atual</h3></div>
+<div><div class="checklist">
+<div class="check"><div>✓</div><div><b>Inventariar propriedades.</b><br>Exportar propriedades de Contato, Empresa e Negócio; identificar campos duplicados, sem uso, livres e sem owner.</div></div>
+<div class="check"><div>✓</div><div><b>Mapear pipelines e workflows.</b><br>Listar todos os pipelines, estágios, automações, listas ativas, formulários e integrações existentes.</div></div>
+<div class="check"><div>✓</div><div><b>Medir qualidade.</b><br>Levantar duplicidades, registros sem empresa associada, negócios sem produto, origem vazia e CNPJ ausente.</div></div>
+<div class="check"><div>✓</div><div><b>Identificar fontes de verdade.</b><br>Definir quais dados vêm do Hubspot, Financeiro, LMS, Comercial ou outras plataformas.</div></div>
+</div><p class="note"><span class="badge">Saída</span> inventário, mapa de integrações, relatório de qualidade e backlog priorizado.</p></div></div>
+
+<div class="howto"><div class="howto-phase"><div class="num">02</div><div class="mini-label">Semana 3–4</div><h3>Definir o modelo mínimo</h3></div>
+<div><div class="checklist">
+<div class="check"><div>✓</div><div><b>Formalizar o Customer ID.</b><br>Definir chave, regra de criação, tratamento de duplicidades e relação entre pessoa e empresa.</div></div>
+<div class="check"><div>✓</div><div><b>Padronizar taxonomias.</b><br>Criar listas controladas para BU, produto, segmento, origem, motivo de perda e estágio de lifecycle.</div></div>
+<div class="check"><div>✓</div><div><b>Definir campos obrigatórios.</b><br>Estabelecer quais propriedades precisam estar completas em cada etapa do funil.</div></div>
+<div class="check"><div>✓</div><div><b>Criar governança.</b><br>Nomear owner por propriedade, regra de alteração e processo para inclusão de novos campos.</div></div>
+</div><p class="note"><span class="badge">Saída</span> dicionário de dados, taxonomia, owners e regras de preenchimento.</p></div></div>
+
+<div class="howto"><div class="howto-phase"><div class="num">03</div><div class="mini-label">Mês 2</div><h3>Configurar a visão Customer 360</h3></div>
+<div><div class="checklist">
+<div class="check"><div>✓</div><div><b>Criar propriedades consolidadas.</b><br>Produto inicial, produtos adquiridos, receita acumulada, número de compras, última compra e última interação.</div></div>
+<div class="check"><div>✓</div><div><b>Associar corretamente.</b><br>Garantir que contatos estejam ligados à empresa e que negócios estejam associados à conta correspondente.</div></div>
+<div class="check"><div>✓</div><div><b>Montar visualizações.</b><br>Criar views para monoproduto, multiproduto, inativos, alto potencial e contas estratégicas.</div></div>
+<div class="check"><div>✓</div><div><b>Validar com amostra.</b><br>Selecionar contas conhecidas e conferir se o histórico exibido corresponde à realidade comercial e financeira.</div></div>
+</div><p class="note"><span class="badge">Saída</span> Customer 360 MVP e visão multiproduto utilizável.</p></div></div>
+
+<div class="howto"><div class="howto-phase"><div class="num">04</div><div class="mini-label">Mês 2–3</div><h3>Construir listas e dashboards</h3></div>
+<div><div class="checklist">
+<div class="check"><div>✓</div><div><b>Listas operacionais.</b><br>Clientes monoproduto, multiproduto, inativos, alta recência, baixa interação, oportunidades por BU e contas sem owner.</div></div>
+<div class="check"><div>✓</div><div><b>Dashboard executivo.</b><br>Novos clientes, CAC por BU, receita por cliente, taxa multiproduto, recompra e sinais de churn.</div></div>
+<div class="check"><div>✓</div><div><b>Dashboard de operação.</b><br>Qualidade da base, contatos sem associação, negócios sem produto, erros de origem e evolução de preenchimento.</div></div>
+<div class="check"><div>✓</div><div><b>Reconciliar números.</b><br>Comparar resultados com Financeiro e Comercial antes de institucionalizar os painéis.</div></div>
+</div><p class="note"><span class="badge">Saída</span> painéis confiáveis e listas acionáveis.</p></div></div>
+
+<div class="howto"><div class="howto-phase"><div class="num">05</div><div class="mini-label">Mês 3–4</div><h3>Ativar casos de uso</h3></div>
+<div><div class="checklist">
+<div class="check"><div>✓</div><div><b>Cross-sell piloto.</b><br>Selecionar uma combinação de produtos, definir público elegível, criar mensagem, CTA, owner e grupo de controle.</div></div>
+<div class="check"><div>✓</div><div><b>Reativação.</b><br>Definir inatividade, criar sequência de conteúdo e estabelecer critério de retorno.</div></div>
+<div class="check"><div>✓</div><div><b>Alerta de risco.</b><br>Criar workflow que gere tarefa para CRM, Comercial ou CS quando sinais mínimos forem atingidos.</div></div>
+<div class="check"><div>✓</div><div><b>Registrar aprendizado.</b><br>Documentar público, hipótese, execução, resultado e decisão de escalar, ajustar ou interromper.</div></div>
+</div><p class="note"><span class="badge">Saída</span> primeiros workflows com impacto mensurado.</p></div></div>
+
+<div class="howto"><div class="howto-phase"><div class="num">06</div><div class="mini-label">Contínuo</div><h3>Operar e governar</h3></div>
+<div><div class="checklist">
+<div class="check"><div>✓</div><div><b>Ritual semanal.</b><br>Revisar erros de dados, listas críticas, workflows e incidentes.</div></div>
+<div class="check"><div>✓</div><div><b>Ritual mensal.</b><br>Revisar CAC, LTV, churn, multiproduto, cross-sell e qualidade da base.</div></div>
+<div class="check"><div>✓</div><div><b>Controle de mudanças.</b><br>Nenhuma propriedade, lista ou workflow crítico é alterado sem owner, motivo e documentação.</div></div>
+<div class="check"><div>✓</div><div><b>Transferência gradual.</b><br>CRM assume jornadas; Mídia assume CAC; Conteúdo assume lifecycle; Marketing Operations Lead mantém governança e melhoria.</div></div>
+</div><p class="note"><span class="badge">Saída</span> Hubspot operado como sistema, não como conjunto de campanhas isoladas.</p></div></div>
+</section>
+
+<section class="section"><div class="section-title"><h2>Responsabilidades no Hubspot</h2></div>
+<div class="table-wrap"><table><thead><tr><th>Responsável</th><th>Papel</th><th>Entregas</th></tr></thead><tbody>
+<tr><td>Marketing Operations Lead</td><td>Owner do modelo operacional e da governança</td><td>Arquitetura mínima, configuração, documentação, dashboards e melhoria contínua</td></tr>
+<tr><td>CRM</td><td>Owner das jornadas e da operação recorrente</td><td>Listas, workflows, campanhas lifecycle e monitoramento</td></tr>
+<tr><td>Mídia / Growth</td><td>Owner de aquisição e origem</td><td>UTMs, campanhas, CAC, qualidade de leads e aprendizados por BU</td></tr>
+<tr><td>Conteúdo</td><td>Owner dos ativos por jornada</td><td>Conteúdo de aquisição, nutrição, expansão e retenção</td></tr>
+<tr><td>Design</td><td>Fornecedor compartilhado</td><td>Experiência, interface, visualização e peças quando demandado</td></tr>
+<tr><td>Dados / Tecnologia</td><td>Suporte de integração</td><td>Sincronização, qualidade técnica, acessos e automações complexas</td></tr>
+</tbody></table></div></section>
+
+<section class="section"><div class="callout"><strong>Resultado esperado:</strong><br>o Hubspot responde de forma confiável quem é o cliente, o que já comprou, quanto vale, qual é o risco e qual deve ser a próxima ação — com o Marketing Operations Lead garantindo o modelo e o time operando as rotinas.</div></section>
+<footer class="footer"><span>Live University · Marketing Transformation</span><span>Documento estratégico navegável</span></footer></div></main><script src="app.js"></script></body></html>
