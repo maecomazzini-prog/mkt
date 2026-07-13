@@ -42,3 +42,13 @@ VERSÃO 3 — INTEGRAÇÃO ENTRE ESTRATÉGIA E EXECUÇÃO
 - RACI corrigido: Marketing Operations Lead separado de Design.
 - Design permanece como área independente e fornecedora compartilhada.
 - Home, numeração e nomenclaturas revisadas.
+
+
+VERSÃO 4 — OPERAÇÃO EM DOIS TRILHOS
+- Roadmap atualizado com operação imediata e construção futura em paralelo.
+- Incluída cadência semanal para geração de demanda e eventos.
+- Incluídas métricas de transição antes da maturidade de CAC, LTV e churn.
+- Incluídos perfis profissionais para a contratação adicional.
+- MDR definido como prioridade 1.
+- Marketing Operations Analyst mantido como prioridade 2.
+- Organograma atualizado com MDR, mantendo Design como área separada.
